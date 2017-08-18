@@ -13,6 +13,7 @@
 		45EC1C741F46C783000DCB32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45EC1C731F46C783000DCB32 /* Assets.xcassets */; };
 		45EC1C771F46C783000DCB32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EC1C751F46C783000DCB32 /* LaunchScreen.storyboard */; };
 		45EC1C7A1F46C783000DCB32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1C791F46C783000DCB32 /* main.m */; };
+		45EC1C921F46CCEE000DCB32 /* NSDate+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1C911F46CCEE000DCB32 /* NSDate+MJObjcSugar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		45EC1C791F46C783000DCB32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45EC1C8A1F46CBA4000DCB32 /* NSBundle+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+MJObjcSugar.h"; sourceTree = "<group>"; };
 		45EC1C8B1F46CBA4000DCB32 /* NSBundle+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+MJObjcSugar.m"; sourceTree = "<group>"; };
+		45EC1C901F46CCEE000DCB32 /* NSDate+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+MJObjcSugar.h"; sourceTree = "<group>"; };
+		45EC1C911F46CCEE000DCB32 /* NSDate+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MJObjcSugar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,10 @@
 		45EC1C881F46CBA4000DCB32 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				45EC1C8E1F46CCA3000DCB32 /* NSBuntton */,
+				45EC1C8C1F46CCA3000DCB32 /* NSDate */,
+				45EC1C8D1F46CCA3000DCB32 /* UIColor */,
+				45EC1C8F1F46CCA3000DCB32 /* UIImage */,
 				45EC1C891F46CBA4000DCB32 /* NSBundle */,
 			);
 			path = Categories;
@@ -89,6 +96,36 @@
 				45EC1C8B1F46CBA4000DCB32 /* NSBundle+MJObjcSugar.m */,
 			);
 			path = NSBundle;
+			sourceTree = "<group>";
+		};
+		45EC1C8C1F46CCA3000DCB32 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				45EC1C901F46CCEE000DCB32 /* NSDate+MJObjcSugar.h */,
+				45EC1C911F46CCEE000DCB32 /* NSDate+MJObjcSugar.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		45EC1C8D1F46CCA3000DCB32 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		45EC1C8E1F46CCA3000DCB32 /* NSBuntton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSBuntton;
+			sourceTree = "<group>";
+		};
+		45EC1C8F1F46CCA3000DCB32 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45EC1C921F46CCEE000DCB32 /* NSDate+MJObjcSugar.m in Sources */,
 				45EC1C6F1F46C783000DCB32 /* ViewController.m in Sources */,
 				45EC1C7A1F46C783000DCB32 /* main.m in Sources */,
 				45EC1C6C1F46C783000DCB32 /* AppDelegate.m in Sources */,
