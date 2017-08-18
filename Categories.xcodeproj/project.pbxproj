@@ -22,6 +22,7 @@
 		45EC1CAB1F46D396000DCB32 /* UINavigationController+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1CAA1F46D396000DCB32 /* UINavigationController+MJObjcSugar.m */; };
 		45EC1CB31F46DFA9000DCB32 /* UILabel+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1CB21F46DFA9000DCB32 /* UILabel+MJObjcSugar.m */; };
 		45EC1CB61F46E3AD000DCB32 /* UIButton+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1CB51F46E3AD000DCB32 /* UIButton+MJObjcSugar.m */; };
+		45EC1CB91F46E589000DCB32 /* NSString+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1CB81F46E589000DCB32 /* NSString+MJObjcSugar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,8 @@
 		45EC1CB21F46DFA9000DCB32 /* UILabel+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MJObjcSugar.m"; sourceTree = "<group>"; };
 		45EC1CB41F46E3AD000DCB32 /* UIButton+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+MJObjcSugar.h"; sourceTree = "<group>"; };
 		45EC1CB51F46E3AD000DCB32 /* UIButton+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MJObjcSugar.m"; sourceTree = "<group>"; };
+		45EC1CB71F46E589000DCB32 /* NSString+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MJObjcSugar.h"; sourceTree = "<group>"; };
+		45EC1CB81F46E589000DCB32 /* NSString+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJObjcSugar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +206,8 @@
 		45EC1C9B1F46CFE2000DCB32 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				45EC1CB71F46E589000DCB32 /* NSString+MJObjcSugar.h */,
+				45EC1CB81F46E589000DCB32 /* NSString+MJObjcSugar.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 				45EC1C6C1F46C783000DCB32 /* AppDelegate.m in Sources */,
 				45EC1CB31F46DFA9000DCB32 /* UILabel+MJObjcSugar.m in Sources */,
 				45EC1CA81F46D286000DCB32 /* UIScreen+MJObjcSugar.m in Sources */,
+				45EC1CB91F46E589000DCB32 /* NSString+MJObjcSugar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
