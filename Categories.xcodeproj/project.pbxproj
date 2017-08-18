@@ -20,6 +20,7 @@
 		45EC1CA51F46D1FC000DCB32 /* UITextField+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1CA41F46D1FC000DCB32 /* UITextField+MJObjcSugar.m */; };
 		45EC1CA81F46D286000DCB32 /* UIScreen+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1CA71F46D286000DCB32 /* UIScreen+MJObjcSugar.m */; };
 		45EC1CAB1F46D396000DCB32 /* UINavigationController+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1CAA1F46D396000DCB32 /* UINavigationController+MJObjcSugar.m */; };
+		45EC1CB31F46DFA9000DCB32 /* UILabel+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1CB21F46DFA9000DCB32 /* UILabel+MJObjcSugar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		45EC1CA71F46D286000DCB32 /* UIScreen+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+MJObjcSugar.m"; sourceTree = "<group>"; };
 		45EC1CA91F46D396000DCB32 /* UINavigationController+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MJObjcSugar.h"; sourceTree = "<group>"; };
 		45EC1CAA1F46D396000DCB32 /* UINavigationController+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MJObjcSugar.m"; sourceTree = "<group>"; };
+		45EC1CB11F46DFA9000DCB32 /* UILabel+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+MJObjcSugar.h"; sourceTree = "<group>"; };
+		45EC1CB21F46DFA9000DCB32 /* UILabel+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MJObjcSugar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,8 @@
 		45EC1C961F46CFE2000DCB32 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
+				45EC1CB11F46DFA9000DCB32 /* UILabel+MJObjcSugar.h */,
+				45EC1CB21F46DFA9000DCB32 /* UILabel+MJObjcSugar.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 				45EC1C9F1F46D018000DCB32 /* UIImage+MJObjcSugar.m in Sources */,
 				45EC1CAB1F46D396000DCB32 /* UINavigationController+MJObjcSugar.m in Sources */,
 				45EC1C6C1F46C783000DCB32 /* AppDelegate.m in Sources */,
+				45EC1CB31F46DFA9000DCB32 /* UILabel+MJObjcSugar.m in Sources */,
 				45EC1CA81F46D286000DCB32 /* UIScreen+MJObjcSugar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
