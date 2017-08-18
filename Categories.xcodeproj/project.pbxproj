@@ -15,7 +15,8 @@
 		45EC1C7A1F46C783000DCB32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1C791F46C783000DCB32 /* main.m */; };
 		45EC1C921F46CCEE000DCB32 /* NSDate+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1C911F46CCEE000DCB32 /* NSDate+MJObjcSugar.m */; };
 		45EC1C951F46CE9F000DCB32 /* UIColor+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1C941F46CE9F000DCB32 /* UIColor+MJObjcSugar.m */; };
-		45EC1C9F1F46D018000DCB32 /* UIImage+MJObicSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1C9E1F46D018000DCB32 /* UIImage+MJObicSugar.m */; };
+		45EC1C9F1F46D018000DCB32 /* UIImage+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1C9E1F46D018000DCB32 /* UIImage+MJObjcSugar.m */; };
+		45EC1CA21F46D0B8000DCB32 /* UIView+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1CA11F46D0B8000DCB32 /* UIView+MJObjcSugar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +36,10 @@
 		45EC1C911F46CCEE000DCB32 /* NSDate+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MJObjcSugar.m"; sourceTree = "<group>"; };
 		45EC1C931F46CE9F000DCB32 /* UIColor+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MJObjcSugar.h"; sourceTree = "<group>"; };
 		45EC1C941F46CE9F000DCB32 /* UIColor+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MJObjcSugar.m"; sourceTree = "<group>"; };
-		45EC1C9D1F46D018000DCB32 /* UIImage+MJObicSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MJObicSugar.h"; sourceTree = "<group>"; };
-		45EC1C9E1F46D018000DCB32 /* UIImage+MJObicSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MJObicSugar.m"; sourceTree = "<group>"; };
+		45EC1C9D1F46D018000DCB32 /* UIImage+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MJObjcSugar.h"; sourceTree = "<group>"; };
+		45EC1C9E1F46D018000DCB32 /* UIImage+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MJObjcSugar.m"; sourceTree = "<group>"; };
+		45EC1CA01F46D0B8000DCB32 /* UIView+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MJObjcSugar.h"; sourceTree = "<group>"; };
+		45EC1CA11F46D0B8000DCB32 /* UIView+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJObjcSugar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +134,8 @@
 		45EC1C8F1F46CCA3000DCB32 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				45EC1C9D1F46D018000DCB32 /* UIImage+MJObicSugar.h */,
-				45EC1C9E1F46D018000DCB32 /* UIImage+MJObicSugar.m */,
+				45EC1C9D1F46D018000DCB32 /* UIImage+MJObjcSugar.h */,
+				45EC1C9E1F46D018000DCB32 /* UIImage+MJObjcSugar.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -182,6 +185,8 @@
 		45EC1C9C1F46CFE2000DCB32 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				45EC1CA01F46D0B8000DCB32 /* UIView+MJObjcSugar.h */,
+				45EC1CA11F46D0B8000DCB32 /* UIView+MJObjcSugar.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -257,10 +262,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45EC1C951F46CE9F000DCB32 /* UIColor+MJObjcSugar.m in Sources */,
+				45EC1CA21F46D0B8000DCB32 /* UIView+MJObjcSugar.m in Sources */,
 				45EC1C921F46CCEE000DCB32 /* NSDate+MJObjcSugar.m in Sources */,
 				45EC1C6F1F46C783000DCB32 /* ViewController.m in Sources */,
 				45EC1C7A1F46C783000DCB32 /* main.m in Sources */,
-				45EC1C9F1F46D018000DCB32 /* UIImage+MJObicSugar.m in Sources */,
+				45EC1C9F1F46D018000DCB32 /* UIImage+MJObjcSugar.m in Sources */,
 				45EC1C6C1F46C783000DCB32 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

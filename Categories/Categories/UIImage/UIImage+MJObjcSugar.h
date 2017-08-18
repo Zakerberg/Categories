@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (MJObicSugar)
+@interface UIImage (MJObjcSugar)
 
 /// 生成指定颜色的一个`点`的图像
 ///

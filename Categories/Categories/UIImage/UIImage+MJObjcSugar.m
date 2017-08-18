@@ -6,9 +6,9 @@
 //  Copyright © 2017年 Michael 柏. All rights reserved.
 //
 
-#import "UIImage+MJObicSugar.h"
+#import "UIImage+MJObjcSugar.h"
 
-@implementation UIImage (MJObicSugar)
+@implementation UIImage (MJObjcSugar)
 
 + (UIImage *)mj_singleDotImageWithColor:(UIColor *)color {
     
