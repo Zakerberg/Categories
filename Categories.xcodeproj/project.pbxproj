@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45C6623E1F4937540008FF44 /* NSAttributedString+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C6623D1F4937540008FF44 /* NSAttributedString+MJObjcSugar.m */; };
 		45EC1C6C1F46C783000DCB32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1C6B1F46C783000DCB32 /* AppDelegate.m */; };
 		45EC1C6F1F46C783000DCB32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1C6E1F46C783000DCB32 /* ViewController.m */; };
 		45EC1C721F46C783000DCB32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EC1C701F46C783000DCB32 /* Main.storyboard */; };
@@ -27,8 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		45C6623C1F4937540008FF44 /* NSAttributedString+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MJObjcSugar.h"; sourceTree = "<group>"; };
-		45C6623D1F4937540008FF44 /* NSAttributedString+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MJObjcSugar.m"; sourceTree = "<group>"; };
+		45ABA09C1F499752009E6F85 /* NSAttributedString+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MJObjcSugar.h"; sourceTree = "<group>"; };
+		45ABA09D1F499752009E6F85 /* NSAttributedString+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MJObjcSugar.m"; sourceTree = "<group>"; };
 		45EC1C671F46C783000DCB32 /* Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45EC1C6A1F46C783000DCB32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45EC1C6B1F46C783000DCB32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,11 +73,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		45C6623B1F4937220008FF44 /* NSAttributedString */ = {
+		45ABA09B1F499752009E6F85 /* NSAttributedString */ = {
 			isa = PBXGroup;
 			children = (
-				45C6623C1F4937540008FF44 /* NSAttributedString+MJObjcSugar.h */,
-				45C6623D1F4937540008FF44 /* NSAttributedString+MJObjcSugar.m */,
+				45ABA09C1F499752009E6F85 /* NSAttributedString+MJObjcSugar.h */,
+				45ABA09D1F499752009E6F85 /* NSAttributedString+MJObjcSugar.m */,
 			);
 			path = NSAttributedString;
 			sourceTree = "<group>";
@@ -119,7 +118,7 @@
 		45EC1C881F46CBA4000DCB32 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				45C6623B1F4937220008FF44 /* NSAttributedString */,
+				45ABA09B1F499752009E6F85 /* NSAttributedString */,
 				45EC1C9B1F46CFE2000DCB32 /* NSString */,
 				45EC1C971F46CFE2000DCB32 /* UIButton */,
 				45EC1C961F46CFE2000DCB32 /* UILabel */,
@@ -304,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45C6623E1F4937540008FF44 /* NSAttributedString+MJObjcSugar.m in Sources */,
 				45EC1C951F46CE9F000DCB32 /* UIColor+MJObjcSugar.m in Sources */,
 				45EC1CA21F46D0B8000DCB32 /* UIView+MJObjcSugar.m in Sources */,
 				45EC1C921F46CCEE000DCB32 /* NSDate+MJObjcSugar.m in Sources */,
