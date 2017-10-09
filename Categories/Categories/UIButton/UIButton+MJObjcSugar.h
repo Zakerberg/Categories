@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIButton (MJObjcSugar)
+
 /// 实例化 UIButton
 ///
 /// @param title           title
@@ -76,6 +77,9 @@
                                           imageName:(nullable NSString *)imageName
                                       backImageName:(nullable NSString *)backImageName
                                     highlightSuffix:(nullable NSString *)highlightSuffix;
+
+// 多久后开始执行
+- (void)mj_startTime:(NSInteger)timeout waitBlock:(void(^_Nullable)(NSInteger remainTime))waitBlock finishBlock:(void(^_Nonnull)())finishBlock;
 
 
 @end
