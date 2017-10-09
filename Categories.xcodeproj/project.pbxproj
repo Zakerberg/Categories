@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B0609B1F8B4A3100A8D18B /* UIBarButtonItem+MJObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B0609A1F8B4A3100A8D18B /* UIBarButtonItem+MJObjcSugar.m */; };
 		45EC1C6C1F46C783000DCB32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1C6B1F46C783000DCB32 /* AppDelegate.m */; };
 		45EC1C6F1F46C783000DCB32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC1C6E1F46C783000DCB32 /* ViewController.m */; };
 		45EC1C721F46C783000DCB32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EC1C701F46C783000DCB32 /* Main.storyboard */; };
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		45ABA09C1F499752009E6F85 /* NSAttributedString+MJObjcSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MJObjcSugar.h"; sourceTree = "<group>"; };
 		45ABA09D1F499752009E6F85 /* NSAttributedString+MJObjcSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MJObjcSugar.m"; sourceTree = "<group>"; };
+		45B060991F8B4A3100A8D18B /* UIBarButtonItem+MJObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MJObjcSugar.h"; sourceTree = "<group>"; };
+		45B0609A1F8B4A3100A8D18B /* UIBarButtonItem+MJObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MJObjcSugar.m"; sourceTree = "<group>"; };
 		45EC1C671F46C783000DCB32 /* Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45EC1C6A1F46C783000DCB32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45EC1C6B1F46C783000DCB32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +85,15 @@
 			path = NSAttributedString;
 			sourceTree = "<group>";
 		};
+		45B060981F8B49EA00A8D18B /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				45B060991F8B4A3100A8D18B /* UIBarButtonItem+MJObjcSugar.h */,
+				45B0609A1F8B4A3100A8D18B /* UIBarButtonItem+MJObjcSugar.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
 		45EC1C5E1F46C783000DCB32 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +130,7 @@
 		45EC1C881F46CBA4000DCB32 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				45B060981F8B49EA00A8D18B /* UIBarButtonItem */,
 				45ABA09B1F499752009E6F85 /* NSAttributedString */,
 				45EC1C9B1F46CFE2000DCB32 /* NSString */,
 				45EC1C971F46CFE2000DCB32 /* UIButton */,
@@ -309,6 +322,7 @@
 				45EC1C6F1F46C783000DCB32 /* ViewController.m in Sources */,
 				45EC1C7A1F46C783000DCB32 /* main.m in Sources */,
 				45EC1CB61F46E3AD000DCB32 /* UIButton+MJObjcSugar.m in Sources */,
+				45B0609B1F8B4A3100A8D18B /* UIBarButtonItem+MJObjcSugar.m in Sources */,
 				45EC1CA51F46D1FC000DCB32 /* UITextField+MJObjcSugar.m in Sources */,
 				45EC1C9F1F46D018000DCB32 /* UIImage+MJObjcSugar.m in Sources */,
 				45EC1CAB1F46D396000DCB32 /* UINavigationController+MJObjcSugar.m in Sources */,
